@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yudi.submission1bbfa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/development"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/development"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Submission1BBFA">
+        <activity
+            android:name=".DetailListActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
